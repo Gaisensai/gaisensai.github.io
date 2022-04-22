@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dunsin Ajibabi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div id ="container" class="container_dark" >
+            <div class="toggle_icon">
+              <div class="toggle_container" onclick="switchMode()">
+                <div id="toggle" class="toggle_dark" ></div>
+              </div>
+            </div>
+            <div class="header">
+                <p class="intro_hello">Hi, I'm <span class="name">Dunsin</span>.</p>
+                <p class="intro_text col-sm-12 col-lg-8" id="demo"></p>
+                <p class="intro_contact col-sm-12 col-lg-8">Get in touch &nbsp 👉 &nbsp <a href="mailto:ajibabidunsin@gmail.com" class="email">ajibabidunsin@gmail.com</a>
+            </div>
+            <div class="about">
+              <div class="about_inner">
+                <div class="about_header col-sm-12 col-lg-3">BACKGROUND</div>
+                <div class="about_text col-sm-12 col-lg-9">
+                  <p class="light_text">I'm currently an Engineer at &nbsp <strong class="bold_text_dark">Erodev Technologies</strong> &nbsp building the future of patient care with some awesome people. </p>
+                  <p class="light_text">As a software engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.</p>
+                  <p class="light_text"><strong class="bold_text_dark">When I'm not in front of a computer screen,</strong> I'm probably reading, or wandering off into different internet rabbitholes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills">
+                <div class="skills_inner">
+                  <div class="skills_header col-sm-12 col-lg-3">SKILLS</div>
+                  <div class="skills_text col-sm-12 col-lg-9">
+                    <p class="light_text"><strong class="bold_text_dark">LANGUAGES  &nbsp </strong>JavaScript TypeScript</p>
+                    <p class="light_text"><strong class="bold_text_dark">FRAMEWORKS &nbsp </strong>React React-Native Django Node Apollo(GraphQL)</p>
+                    <p class="light_text"><strong class="bold_text_dark">TOOLS &nbsp </strong>Git GitHub ChromeDevTools PostgreSQL MongoDB </p>
+                  </div>
+                </div>
+              </div>
+              <div class="experience">
+                <div class="experience_inner">
+                  <div class="experience_header col-sm-12 col-lg-3">EXPERIENCE</div>
+                  <div class="experience_text col-sm-12 col-lg-9">
+                    <strong class="bold_text_dark" id="experience_subheader">Erodev Technologies, &nbsp  Remote  &nbsp - &nbsp Front-end developer  &nbsp </strong>
+                    <p class="light_text" id="time">March 2021 - Present</p>
+                    <br>
+                    <strong class="bold_text_dark" id="experience_subheader">National Information Technological development Agency &nbsp  Remote  &nbsp - &nbsp Front-end   &nbsp </strong>
+                    <p class="light_text" id="time">January 2020 - November 2020</p>
+                    <br>
+                    <strong class="bold_text_dark" id="experience_subheader">Freelance, &nbsp  Remote  &nbsp - &nbsp FullStack Engineer  &nbsp </strong>
+                    <p class="light_text" id="time">August 2017 - Decemeber 2019</p>
+                    <p class="light_text">Built and maintained client and server side applications for organizations and individuals.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="projects">
+                <div class="projects_inner">
+                  <div class="projects_header col-sm-12 col-lg-3">SIDE PROJECTS</div>
+                  <div class="projects_text col-sm-12 col-lg-9">
+                    <a href="https://letsplit.co/">
+                      <strong class="bold_text_dark">Split</strong>
+                    </a>
+                    <p class="light_text">Create joint accounts and split payments with friends or family.</p>
+                      <div class="tags_container row">
+                        <span class="tags">TypeScript</span>
+                        <span class="tags">Next JS</span>
+                        <span class="tags">React Native</span>
+                        <span class="tags">Node JS</span>
+                        <span class="tags">TypeORM</span>
+                        <span class="tags">PostgreSQL</span>
+                      </div>
+                  </div>
+                </div>
+                <div class="projects_inner">
+                  <div class="projects_header col-sm-12 col-lg-3">OPEN SOURCE WORK</div>
+                  <div class="projects_text col-sm-12 col-lg-9">
+                    <a href="https://github.com/Gaisensai/food-order">
+                      <strong class="bold_text_dark">Food Order</strong>
+                    </a>
+                    <p class="light_text">An App to Order Meals</p>
+                      <div class="tags_container row">
+                        <span class="tags">TypeScript</span>
+                        <span class="tags">React</span>
+                        <span class="tags">MongoDB</span>
+                      </div>
+
+                    <a href="https://github.com/Gaisensai/Muuiew-main">
+                      <strong class="bold_text_dark">Muuiew-main</strong>
+                    </a>
+                    <p class="light_text">An AI chatbot that converts voice input to text</p>
+                      <div class="tags_container row">
+                        <span class="tags">TypeScript</span>
+                        <span class="tags">HTML</span>
+                        <span class="tags">CSS</span>
+                        <span class="tags">JavaScript</span>
+                      </div>
+
+                    <a href="https://github.com/Gaisensai/Houses">
+                      <strong class="bold_text_dark">Houses</strong>
+                    </a>
+                    <p class="light_text">A single page app that fetches and displays data from the HomeVision api.</p>
+                      <div class="tags_container row">
+                        <span class="tags">React</span>
+                        <span class="tags">Node</span>
+                        <span class="tags">Express</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer row">
+                     See more  @<span> <a href="https://github.com/Gaisensai">Gaisensai</a></span>
+                  <br>
+                  <div class="credit_container col-sm-12 col-lg-4">
+                    <p>Developed By Dunsin &nbsp 🤘🏾&nbsp 2022</p>
+                  </div>
+                  <div class="social_container col-sm-12 col-lg-8"></div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
