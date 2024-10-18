@@ -1,6 +1,6 @@
 
 var i = 0;
-var txt = 'I design software with and for people. My background is in software and electrical engineering. I am currently at Erodev Technologies Ltd, which focuses on development, testing, automation and procurement in technology advancement.';
+var txt = 'I design software in collaboration with people, drawing on my background in software and electrical engineering.';
 var speed = 30;
 
 window.addEventListener('load', function typeWriter() {
